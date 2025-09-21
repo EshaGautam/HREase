@@ -1,0 +1,150 @@
+.button,
+.button_disabled {
+  font-family: inherit;
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: var(--white);
+  padding: 1rem 2rem;
+  border-radius: 0.8rem;
+  transition: all 0.4s;
+  height: 4.8rem;
+  display: flex;
+  gap: 0.7rem;
+  align-items: center;
+  justify-content: center;
+
+  svg {
+    height: 1.5rem;
+    width: 2rem;
+    fill: var(--white);
+    transition: all 0.4s;
+  }
+}
+.button {
+  background-color: var(--button-bg);
+  border: 1px solid var(--button-border-color);
+  box-shadow: var(--button-shadow);
+  cursor: pointer;
+}
+.button_disabled {
+  background-color: var(--grey);
+  border: 1px solid var(--grey);
+}
+.button span,
+.button_disabled span {
+  height: 2px;
+  width: 2.5rem;
+  background-color: var(--white);
+  transition: all 0.4s;
+}
+
+.button_blue,
+.button_danger,
+.button_success,
+.button_light {
+  font-family: inherit;
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  transition: all 0.4s;
+  display: flex;
+  gap: 0.7rem;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  svg {
+    height: 1.5rem;
+    width: 1.5rem;
+    transition: all 0.4s;
+  }
+}
+.button_blue {
+  color: var(--white);
+  background-color: var(--light-blue);
+  
+
+  svg {
+    fill: var(--white);
+  }
+}
+.button_blue:hover {
+  color: var(--light-blue);
+  background-color: transparent;
+  border: 1px solid  var(--light-grey);
+
+  svg {
+    fill: var(--light-blue);
+  }
+}
+.button_light {
+  color: var(--white);
+  background-color: #D3D2D2;
+  border: 1px solid #D3D2D2;
+
+  svg {
+    fill: var(--grey-new2);
+  }
+}
+.button_light:hover {
+  color: var(--grey-new2);
+  border: 1px solid  var(--light-grey);
+
+  svg {
+    fill: var(--grey-new2);
+  }
+}
+.button_danger {
+  color: var(--black);
+  background-color: var(--white);
+  border: 1px solid #EEEEEE;
+
+  svg {
+    fill: var(--white);
+  }
+}
+.button_danger:hover {
+  color: var(--black);
+  background-color: transparent;
+
+  svg {
+    fill: var(--red-new);
+  }
+}
+
+.button_trash {
+  color: var(--white);
+  background-color: var(--red-trash);
+  border: 1px solid var(--red-trash);
+
+  svg {
+    fill: var(--white);
+  }
+}
+
+.button_trash:hover {
+  color: var(--black);
+  background-color: transparent;
+
+  svg {
+    fill: var(--red-new);
+  }
+}
+.button_success {
+  color: var(--white);
+  background-color: var(--medium-green);
+  border: 1px solid var(--medium-green);
+
+  svg {
+    fill: var(--white);
+  }
+}
+.button_success:hover {
+  color: var(--green-new);
+  background-color: transparent;
+
+  svg {
+    fill: var(--green-new);
+  }
+}

@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+:root {
+  --card-color: rgba(31, 34, 34, 0.6);
+  --button-bg: #4f46e5;    
+  --button-text: #ffffff;
+  --button-shadow: 0 4px 12px rgba(79,70,229,0.4);
+     --input-bg:rgba(255, 255, 255, 0.2);
+   --input-color:#ffffff;
+    --input-boder-color: rgba(255, 255, 255, 0.3);
+    --error-color:#FF6B81;
+  
+}
+
+
+body {
+  height: 100vh;
+  margin: 0;
+background: linear-gradient(135deg, #0a0a0f, #141e30, #2e3a5f);
+
+
+;
+}
+
+
+
+html {
+  font-size: 62.5%;
+}
